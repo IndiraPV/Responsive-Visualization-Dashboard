@@ -1,0 +1,51 @@
+/* Body */
+body{
+    background-color: #EDEDED; 
+}
+
+.dropdown-item:hover{
+    background-color:#033C73 !important; 
+}
+.nav-link:hover, .navbar-brand:hover{
+    border-color:white !important;
+    border-style: solid; 
+   }
+
+/* Images */
+img{
+    width:100% !important;
+    height:100% !important;
+}
+.active, .panel:hover{
+    border-color: #033C73;
+    border-style: solid; 
+    
+}
+.vizualization{
+    width:50% !important;
+    height:50% !important;
+}
+ 
+/* Box Class */
+.box {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+
+  }
+/* Table */
+  /* .table{
+    font-size: 15px; 
+    border-top-color: white !important; 
+} */
+/* Footer */
+footer{
+text-align: center; 
+position: fixed;
+left: 0;
+bottom: 0; 
+width: 100%;
+padding-top: 15px; 
+}
