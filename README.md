@@ -56,7 +56,7 @@ Navigation menu is responsive (using media queries).
 
 ![navbar_large](Images/navbar_large_screen.PNG)
 
-![data_page](Images/navbar_small_screen.PNG)
+![navbar_small](Images/navbar_small_screen.PNG)
 
 Finally, the website was deployed to GitHub pages.
 
