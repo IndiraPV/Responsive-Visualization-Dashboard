@@ -1,7 +1,7 @@
 # Responsive Visualization-Dashboard using BootStrap 4.3, HTML5 and CSS
 
 ## Latitude - Latitude Analysis Dashboard(https://github.com/IndiraPV/Responsive-Visualization-Dashboard)
-For this challenge created a visualization dashboard **website** using visualizations that wad created in a past assignment. Specifically,plotting weather data.
+For this challenge created a visualization dashboard [website](https://indirapv.github.io/Responsive-Visualization-Dashboard/) using visualizations that wad created in a past assignment. Specifically,plotting weather data.
 In building this dashboard, individual pages was created for each plot and a means to navigate between them. These pages contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 The wesite has the following:
@@ -17,7 +17,7 @@ The wesite has the following:
 
 ![max_temp](Images/maxtemp.PNG)
 
-![humidity_page](Images/humidity.PNG)
+![humidity_page](Images/Humidity.PNG)
 
 ![cloudiness_page](Images/cloudiness.PNG)
 
@@ -32,7 +32,7 @@ Uses a bootstrap grid for the visualizations.
 The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 
 Screens medium and larger:
-![comparisons_page](Images/comparsions.PNG)
+![comparisons_page](Images/Comparsions.PNG)
 
 Screens etra-small and small:
 ![comparisons_responsive](Images/comparisosns_small_screen.PNG)
@@ -44,7 +44,7 @@ Displays a responsive table containing the data used in the visualizations.
 The table must be a bootstrap table component.
 The data must come from exporting the .csv file as HTML, or converting it to HTML. Pandas has a nifty method approprately called to_html that allows you to generate a HTML table from a pandas dataframe. 
 
-![data_page](Images/data.PNG)
+![data_page](Images/Data.PNG)
 
 
 The website has, at the top of every page, have a navigation menu that:
@@ -56,10 +56,8 @@ Navigation menu is responsive (using media queries).
 
 ![navbar_large](Images/navbar_large_screen.PNG)
 
-![navbar_small](Images/navbar_small_screen.PNG)
+![navbar_small](Images/nav_small_screen.PNG)
 
 Finally, the website was deployed to GitHub pages.
-
-
 
 [website](https://indirapv.github.io/Responsive-Visualization-Dashboard/)
