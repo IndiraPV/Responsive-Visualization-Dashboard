@@ -5,7 +5,7 @@ For this challenge created a visualization dashboard **website** using visualiza
 In building this dashboard, individual pages was created for each plot and a means to navigate between them. These pages contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 The wesite has the following:
-*	SA landing page containing an explanation of the project and links to each visualizations page.
+* A landing page containing an explanation of the project and links to each visualizations page.
 
 
 ![final_app](Images/final_app.PNG)
@@ -17,7 +17,7 @@ The wesite has the following:
 
 ![max_temp](Images/maxtemp.PNG)
 
-![humidity_page](Images/Humidity.PNG)
+![humidity_page](Images/humidity.PNG)
 
 ![cloudiness_page](Images/cloudiness.PNG)
 
@@ -54,7 +54,7 @@ Contains a dropdown on the right of the navbar named "Plots" which provides link
 Provides two more links on the right: "Comparisons" which links to the comparisons page, and "Data" which links to the data page.
 Navigation menu is responsive (using media queries). 
 
-![navbar_large](Images/navbar_large_screen.PNG.PNG)
+![navbar_large](Images/navbar_large_screen.PNG)
 
 ![data_page](Images/navbar_small_screen.PNG)
 
@@ -62,4 +62,4 @@ Finally, the website was deployed to GitHub pages.
 
 
 
-[website]url(https://indirapv.github.io/Responsive-Visualization-Dashboard/)
+[website]https://indirapv.github.io/Responsive-Visualization-Dashboard/
