@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Responsive Visualization Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css"
+        media="screen">
+    <!--CSS Link-->
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="../index.html">
+                <span class="glyphicon glyphicon-home glyphicon-align-left"></span>
+                Latitude
+            </a>
+            <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <span class="glyphicon glyphicon-temperature glyphicon-align-left"> </span>
+                                    Temperature
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="humidity.html">
+                                    <span class="glyphicon glyphicon-umbrella glyphicon-align-left"></span>
+                                    Humidity
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="cloudiness.html">
+                                    <span class="glyphicon glyphicon-cloud glyphicon-align-left"></span>
+                                    Cloudiness
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="wind.html">
+                                    <span class="glyphicon glyphicon-wind glyphicon-align-left"></span>
+                                    Wind Speed
+                                </a>
+                            <li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparisons.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Content Section -->
+    <div class="container-fluid">
+        <section class="row">
+            <div class="col-md-8">
+                <article class="description-content">
+                    <h1 class="description-header">Max Temperature</h1>
+                    <hr class="description-hr" />
+                    <img src="../assets/images/Fig1.png" alt="Latitude vs. Max Temperature Plot" class="img-fluid" />
+                    <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg.
+                        Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be
+                        warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth
+                        at the time of the year this data was gathered.
+                    </p>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <!-- Start of Visualizations imageNav Area -->
+                <section id="imageNav-area">
+                    <div class="imageNav-content">
+                        <h2 class="imageNav-header">Visualizations</h2>
+                        <hr />
+                        <div id="images">
+                            <a href="#"><img src="../assets/images/Fig1.png" alt="Latitude vs. Max Temperature Plot"
+                                    class="imageNav-photo active"></a>
+                            <a href="humidity.html"><img src="../assets/images/Fig2.png" alt="Latitude vs. Humidity Plot"
+                                    class="imageNav-photo"></a>
+                            <a href="cloudiness.html"><img src="../assets/images/Fig3.png" alt="Latitude vs. Cloudiness Plot"
+                                    class="imageNav-photo"></a>
+                            <a href="wind.html"><img src="../assets/images/Fig4.png" alt="Latitude vs. Wind Speed Plot"
+                                    class="imageNav-photo"></a>
+                        </div>
+                    </div>
+                </section>
+                <!-- End of the Visualizations imageNav Area -->
+            </div>
+        </section>
+    </div>
+    <!-- End of container -->
+    <!-- Start of footer -->
+    <footer class="footer navbar-fixed-bottom bg-dark">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+            &copy; Copyright Indira V. Poovambur 2019
+        </p>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

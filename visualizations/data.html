@@ -3,20 +3,22 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Web Visualization Dashboard</title>
+    <title>Responsive Visualization Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--CSS Link-->
-    <link rel="stylesheet" type="text/css" href="../CSS/theme.css">
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css"
+        media="screen">
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
 </head>
 
 <body>
     <!-- Navigation Section -->
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="../index.html">Latitude
+            <a class="navbar-brand" href="../index.html">
                 <span class="glyphicon glyphicon-home glyphicon-align-left"></span>
+                Latitude
             </a>
             <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse"
                 data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -30,22 +32,38 @@
                             aria-haspopup="true" aria-expanded="false">
                             Plots
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="../HTML/max-temperature.html">Max Temperature
-                                <span class="glyphicon glyphicon-temperature glyphicon-align-left"></span></a>
-                            <a class="dropdown-item" href="../HTML/humidity.html">Humidity
-                                <span class="glyphicon glyphicon-umbrella glyphicon-align-left"></span></a>
-                            <a class="dropdown-item" href="../HTML/cloudiness.html">Cloudiness
-                                <span class="glyphicon glyphicon-cloud glyphicon-align-left"></span></a>
-                            <a class="dropdown-item" href="../HTML/wind-speed.html">Wind Speed
-                                <span class="glyphicon glyphicon-wind glyphicon-align-left"></span></a>
-                        </div>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="../visualizations/max-temperature.html">
+                                    <span class="glyphicon glyphicon-temperature glyphicon-align-left"> </span>
+                                    Temperature
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="../visualizations/humidity.html">
+                                    <span class="glyphicon glyphicon-umbrella glyphicon-align-left"></span>
+                                    Humidity
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="../visualizations/cloudiness.html">
+                                    <span class="glyphicon glyphicon-cloud glyphicon-align-left"></span>
+                                    Cloudiness
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="../visualizations/wind.html">
+                                    <span class="glyphicon glyphicon-wind glyphicon-align-left"></span>
+                                    Wind Speed
+                                </a>
+                            <li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../HTML/comparisons.html">Comparison</a>
+                        <a class="nav-link" href="../visualizations/comparisons.html">Comparison</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../HTML/data.html">Data</a>
+                        <a class="nav-link" href="../visualizations/data.html">Data</a>
                     </li>
 
                 </ul>
@@ -7188,21 +7206,22 @@
             </table>
         </div>
     </div>
-    <!-- Footer Section -->
-    <footer class="bg-dark">
-        <div class="footer blockquote">Copyright &copy; Indira V. Poovambur 2019</div>
+    <!-- Start of footer -->
+    <footer class="footer navbar-fixed-bottom bg-dark">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+            &copy; Copyright Indira V. Poovambur 2019
+        </p>
     </footer>
+    <!-- End of footer -->
 
     <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
 
