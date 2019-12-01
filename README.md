@@ -1,28 +1,27 @@
 # Responsive Visualization-Dashboard using BootStrap 4.3, HTML5 and CSS
 
-##Latitude - Latitude Analysis Dashboard 
-For this challenge created a visualization dashboard *website* using visualizations that wad created in a past assignment. Specifically,plotting weather data.
+## Latitude - Latitude Analysis Dashboard 
+For this challenge created a visualization dashboard **website** using visualizations that wad created in a past assignment. Specifically,plotting weather data.
 In building this dashboard, individual pages was created for each plot and a means to navigate between them. These pages contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 The wesite has the following:
-*A landing page containing an explanation of the project and links to each visualizations page.
+*	SA landing page containing an explanation of the project and links to each visualizations page.
 
 
 ![final_app](Images/final_app.PNG)
 
-*Four visualization pages, each with:
+* Four visualization pages, each with:
+	* A descriptive title and heading tag.
+	* The plot/visualization itself for the selected comparison.
+	* A paragraph describing the plot and its significance.
 
-A descriptive title and heading tag.
-The plot/visualization itself for the selected comparison.
-A paragraph describing the plot and its significance.
-
-![max_temp](Images/max_temp.PNG)
+![max_temp](Images/maxtemp.PNG)
 
 ![humidity_page](Images/Humidity.PNG)
 
 ![cloudiness_page](Images/cloudiness.PNG)
 
-![wind_page](Images/WindSpeed.PNG)
+![wind_page](Images/windspeed.PNG)
 
 
 *A "Comparisons" page that:
@@ -36,7 +35,7 @@ Screens medium and larger:
 ![comparisons_page](Images/comparsions.PNG)
 
 Screens etra-small and small:
-![comparisons_responsive](Images/comparisons_responsive.PNG)
+![comparisons_responsive](Images/comparisosns_small_screen.PNG)
 
 
 *A "Data" page that:
@@ -55,7 +54,7 @@ Contains a dropdown on the right of the navbar named "Plots" which provides link
 Provides two more links on the right: "Comparisons" which links to the comparisons page, and "Data" which links to the data page.
 Navigation menu is responsive (using media queries). 
 
-![navbar_large](Images/navbar_large_screen.PNG)
+![navbar_large](Images/navbar_large_screen.PNG.PNG)
 
 ![data_page](Images/navbar_small_screen.PNG)
 
