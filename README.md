@@ -1,6 +1,6 @@
 # Responsive Visualization-Dashboard using BootStrap 4.3, HTML5 and CSS
 
-## Latitude - Latitude Analysis Dashboard 
+## Latitude - Latitude Analysis Dashboard(https://github.com/IndiraPV/Responsive-Visualization-Dashboard)
 For this challenge created a visualization dashboard **website** using visualizations that wad created in a past assignment. Specifically,plotting weather data.
 In building this dashboard, individual pages was created for each plot and a means to navigate between them. These pages contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
@@ -24,7 +24,7 @@ The wesite has the following:
 ![wind_page](Images/windspeed.PNG)
 
 
-*A "Comparisons" page that:
+* A "Comparisons" page that:
 
 Contains all of the visualizations on the same page so we can easily visually compare them.
 Uses a bootstrap grid for the visualizations.
@@ -38,7 +38,7 @@ Screens etra-small and small:
 ![comparisons_responsive](Images/comparisosns_small_screen.PNG)
 
 
-*A "Data" page that:
+* A "Data" page that:
 
 Displays a responsive table containing the data used in the visualizations.
 The table must be a bootstrap table component.
@@ -62,4 +62,4 @@ Finally, the website was deployed to GitHub pages.
 
 
 
-[website]https://indirapv.github.io/Responsive-Visualization-Dashboard/
+[website](https://indirapv.github.io/Responsive-Visualization-Dashboard/)
