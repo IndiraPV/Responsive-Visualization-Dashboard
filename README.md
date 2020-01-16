@@ -25,10 +25,11 @@ Each contains:
 
 ![wind_page](Images/windspeed.PNG)
 
-
 * A "Comparisons" page 
 This contains all of the visualizations on the same page so we can easily, visually compare them.
 Uses a bootstrap grid for the visualizations.
+
+![comparisons_page](Images/comparisons.PNG)
 
 * A "Data" page 
 This displays a responsive table containing the data used in the visualizations.
