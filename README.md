@@ -19,7 +19,7 @@ Each contains:
 
 ![max_temp](Images/maxtemp.PNG)
 
-![humidity_page](Images/Humidity.PNG)
+![humidity_page](Images/humidity.PNG)
 
 ![cloudiness_page](Images/cloudiness.PNG)
 
